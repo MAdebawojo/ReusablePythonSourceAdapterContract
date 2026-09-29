@@ -24,4 +24,16 @@ class CanonicalRecord:
     region_code: str | None = None
     geom: dict | None = None
 
+    def to_dict(self) -> dict[str, Any]:
+        """Return a JSON-serializable dict representation."""
+        return {
+            "country_code": self.country_code,
+            "source_id": self.source_id,
+            "source_date": self.source_date.isoformat(),
+            "fetched_at": self.fetched_at.isoformat(),
+            "attributes": self.attributes,
+            "region_code": self.region_code,
+            "geom": self.geom,
+        }
+
 

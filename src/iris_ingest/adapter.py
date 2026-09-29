@@ -5,6 +5,20 @@ from pytest import RunResult
 
 from iris_ingest.models import CanonicalRecord
 
+from dataclasses import dataclass, field
+
+@dataclass 
+class Rejection: 
+    raw_record: dict 
+    reason: str
+
+@dataclass
+class RunResult:
+    adapter_name: str
+    total_extracted: int
+    accepted_count: int
+    rejections: list[Rejection] = field(default_factory=list)
+
 class SourceAdapter(ABC):
     # each adapter declares its own identity
     source_id: str
