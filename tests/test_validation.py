@@ -39,3 +39,16 @@ def test_normalize_then_validate_lowercase_code():
     assert normalize_country_code("de") == "DE"
     assert validate_country_code("de") is False
     assert validate_country_code(normalize_country_code("de")) is True
+
+def test_record_with_multiple_problems_reports_both():
+    record = CanonicalRecord(
+        country_code="XX",
+        source_id="source_1",
+        source_date=date(2024, 6, 1),
+        fetched_at=datetime(2024, 6, 2, tzinfo=timezone.utc),
+        attributes={},
+        region_code=None,
+        geom={"type": "Point", "coordinates": [200.0, 51.2217]},
+    )
+    result = validate_record(record)
+    assert len(result) == 2, f"Expected 2 problems, got: {result}"
