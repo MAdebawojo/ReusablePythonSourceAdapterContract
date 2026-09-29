@@ -1,0 +1,292 @@
+[
+  {
+    "source_id": "src-de-001",
+    "source_date": "2026-09-01",
+    "country": "DE",
+    "region": "NW",
+    "lat": 51.2217,
+    "lon": 6.7762,
+    "site_name": "Düsseldorf North Solar Plot",
+    "capacity_mw": 12.5
+  },
+  {
+    "source_id": "src-de-002",
+    "source_date": "2026-09-02",
+    "country": "DEU",
+    "region": "BY",
+    "lat": 48.1351,
+    "lon": 11.5820,
+    "site_name": "Munich East Alpha-3 Converted Site",
+    "capacity_mw": 25.0
+  },
+  {
+    "source_id": "src-de-003",
+    "source_date": "2026-09-03",
+    "country": "DE",
+    "region": "BW",
+    "lat": 48.7758,
+    "lon": 9.1829,
+    "site_name": "Stuttgart Green Tech Hub",
+    "capacity_mw": 14.0
+  },
+  {
+    "source_id": "src-fr-001",
+    "source_date": "2026-09-01",
+    "country": "FRA",
+    "region": "IDF",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "site_name": "Paris Basin Alpha-3 Converted Wind",
+    "capacity_mw": 18.2
+  },
+  {
+    "source_id": "src-fr-002",
+    "source_date": "2026-09-03",
+    "country": "FR",
+    "region": "NAQ",
+    "lat": 44.8378,
+    "lon": -0.5792,
+    "site_name": "Bordeaux Solar Hub",
+    "capacity_mw": 30.0
+  },
+  {
+    "source_id": "src-fr-003",
+    "source_date": "2026-09-04",
+    "country": "FRA",
+    "region": "OCC",
+    "lat": 43.6047,
+    "lon": 1.4442,
+    "site_name": "Toulouse Aerospace Solar",
+    "capacity_mw": 22.5
+  },
+  {
+    "source_id": "src-nl-001",
+    "source_date": "2026-09-01",
+    "country": "NLD",
+    "region": "NH",
+    "lat": 52.3676,
+    "lon": 4.9041,
+    "site_name": "Amsterdam Port Biomass",
+    "capacity_mw": 8.5
+  },
+  {
+    "source_id": "src-nl-002",
+    "source_date": "2026-09-04",
+    "country": "NL",
+    "region": "ZH",
+    "lat": 51.9244,
+    "lon": 4.4777,
+    "site_name": "Rotterdam Harbor Wind",
+    "capacity_mw": 40.0
+  },
+  {
+    "source_id": "src-nl-003",
+    "source_date": "2026-09-05",
+    "country": "NLD",
+    "region": "UT",
+    "lat": 52.0907,
+    "lon": 5.1214,
+    "site_name": "Utrecht Central Storage",
+    "capacity_mw": 12.0
+  },
+  {
+    "source_id": "src-es-001",
+    "source_date": "2026-09-02",
+    "country": "ESP",
+    "region": "MD",
+    "lat": 40.4168,
+    "lon": -3.7038,
+    "site_name": "Madrid Central Storage",
+    "capacity_mw": 15.0
+  },
+  {
+    "source_id": "src-es-002",
+    "source_date": "2026-09-05",
+    "country": "ES",
+    "region": "AN",
+    "lat": 37.3891,
+    "lon": -5.9845,
+    "site_name": "Seville Solar Array Alpha",
+    "capacity_mw": 50.0
+  },
+  {
+    "source_id": "src-es-003",
+    "source_date": "2026-09-06",
+    "country": "ESP",
+    "region": "CT",
+    "lat": 41.3851,
+    "lon": 2.1734,
+    "site_name": "Barcelona Coastal Wind",
+    "capacity_mw": 33.0
+  },
+  {
+    "source_id": "src-it-001",
+    "source_date": "2026-09-03",
+    "country": "ITA",
+    "region": "LZ",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "site_name": "Rome Lazio Green Site",
+    "capacity_mw": 22.0
+  },
+  {
+    "source_id": "src-it-002",
+    "source_date": "2026-09-06",
+    "country": "IT",
+    "region": "PM",
+    "lat": 45.0703,
+    "lon": 7.6869,
+    "site_name": "Turin Industrial PV",
+    "capacity_mw": 14.5
+  },
+  {
+    "source_id": "src-it-003",
+    "source_date": "2026-09-07",
+    "country": "ITA",
+    "region": "EMR",
+    "lat": 44.4949,
+    "lon": 11.3426,
+    "site_name": "Bologna Clean Energy Grid",
+    "capacity_mw": 19.0
+  },
+  {
+    "source_id": "src-pl-001",
+    "source_date": "2026-09-04",
+    "country": "POL",
+    "region": "MZ",
+    "lat": 52.2297,
+    "lon": 21.0122,
+    "site_name": "Warsaw Solar Plains",
+    "capacity_mw": 35.0
+  },
+  {
+    "source_id": "src-pl-002",
+    "source_date": "2026-09-07",
+    "country": "PL",
+    "region": "DS",
+    "lat": 51.1079,
+    "lon": 17.0385,
+    "site_name": "Wroclaw Hybrid Site",
+    "capacity_mw": 19.8
+  },
+  {
+    "source_id": "src-at-001",
+    "source_date": "2026-09-05",
+    "country": "AUT",
+    "region": "9",
+    "lat": 48.2082,
+    "lon": 16.3738,
+    "site_name": "Vienna Wind Park",
+    "capacity_mw": 16.0
+  },
+  {
+    "source_id": "src-be-001",
+    "source_date": "2026-09-05",
+    "country": "BEL",
+    "region": "BRU",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "site_name": "Brussels Urban Storage",
+    "capacity_mw": 5.0
+  },
+  {
+    "source_id": "src-dk-001",
+    "source_date": "2026-09-06",
+    "country": "DNK",
+    "region": "84",
+    "lat": 55.6761,
+    "lon": 12.5683,
+    "site_name": "Copenhagen Offshore Substation",
+    "capacity_mw": 75.0
+  },
+  {
+    "source_id": "src-se-001",
+    "source_date": "2026-09-06",
+    "country": "SWE",
+    "region": "AB",
+    "lat": 59.3293,
+    "lon": 18.0686,
+    "site_name": "Stockholm Bioenergy Hub",
+    "capacity_mw": 28.5
+  },
+  {
+    "source_id": "src-fi-001",
+    "source_date": "2026-09-07",
+    "country": "FIN",
+    "region": "18",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "site_name": "Helsinki Clean Tech Park",
+    "capacity_mw": 11.0
+  },
+  {
+    "source_id": "src-pt-001",
+    "source_date": "2026-09-07",
+    "country": "PRT",
+    "region": "11",
+    "lat": 38.7223,
+    "lon": -9.1393,
+    "site_name": "Lisbon Solar Grid Link",
+    "capacity_mw": 45.0
+  },
+  {
+    "source_id": "src-ie-001",
+    "source_date": "2026-09-07",
+    "country": "IRL",
+    "region": "L",
+    "lat": 53.3498,
+    "lon": -6.2603,
+    "site_name": "Dublin Wind Interconnector",
+    "capacity_mw": 30.0
+  },
+  {
+    "source_id": "bad-missing-country",
+    "source_date": "2026-09-08",
+    "country": null,
+    "region": "XX",
+    "lat": 50.0000,
+    "lon": 10.0000,
+    "site_name": "Orphan Site Without Country",
+    "capacity_mw": 10.0
+  },
+  {
+    "source_id": "bad-four-letter-country",
+    "source_date": "2026-09-08",
+    "country": "DEUT",
+    "region": "XX",
+    "lat": 50.0000,
+    "lon": 10.0000,
+    "site_name": "Four Letter Code Rejected",
+    "capacity_mw": 10.0
+  },
+  {
+    "source_id": "bad-nonsense-string",
+    "source_date": "2026-09-08",
+    "country": "XYZ",
+    "region": "XX",
+    "lat": 50.0000,
+    "lon": 10.0000,
+    "site_name": "Unknown Three-Letter Code Rejected",
+    "capacity_mw": 10.0
+  },
+  {
+    "source_id": "bad-numeric-country",
+    "source_date": "2026-09-08",
+    "country": "99",
+    "region": "XX",
+    "lat": 50.0000,
+    "lon": 10.0000,
+    "site_name": "Numeric Code Rejected",
+    "capacity_mw": 10.0
+  },
+  {
+    "source_id": "bad-malformed-geom",
+    "source_date": "2026-09-08",
+    "country": "DE",
+    "region": "NW",
+    "lat": "not-a-number",
+    "lon": 6.7762,
+    "site_name": "Malformed Coordinates Site",
+    "capacity_mw": 5.0
+  }
+]
