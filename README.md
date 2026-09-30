@@ -235,4 +235,3 @@ unmodified core.
    (verified via `git diff --stat` against non-`adapters/` paths).
 3. ✅ Invalid `country_code` is rejected, never defaulted to `DE`.
 4. ✅ Geometry field is named `geom` throughout the canonical contract.
-```
