@@ -16,20 +16,13 @@ pip install -e ".[dev]"
 
 ## Running
 
-> **Status: pending.** A CLI entry point (`src/iris_ingest/cli.py`) is
-> the one remaining piece to be added, which will run an adapter
-> end-to-end from the command line and write the JSONL output. Until
-> then, the pipeline can be run manually:
->
-> ```python
-> from iris_ingest.adapters.fixture import FixtureAdapter
-> from iris_ingest.loaders import JsonlLoader
->
-> adapter = FixtureAdapter("fixtures/raw_records.json")
-> with JsonlLoader("output.jsonl") as loader:
->     result = adapter.run(loader)
-> print(result)
-> ```
+```bash
+python -m iris_ingest.cli --source json
+python -m iris_ingest.cli --source csv
+```
+
+Writes normalized records to `output/example_output.jsonl` (or
+`--output <path>`) and prints a summary of accepted/rejected counts.
 
 ## Tests
 
