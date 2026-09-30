@@ -41,7 +41,7 @@ class FixtureAdapter(SourceAdapter):
         if lat is not None and lon is not None:
             try:
                 geom = normalize_geometry(lat, lon)
-            except ValueError as e:
+            except (ValueError, TypeError) as e:
                 # invalid coordinates, raise NormalizationError with the original exception message
                 raise NormalizationError(f"{e}") from e
         elif lat is None and lon is None:

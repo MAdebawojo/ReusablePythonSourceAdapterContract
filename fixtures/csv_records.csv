@@ -1,0 +1,30 @@
+unique_code,updated_at,nation,state_code,y,x,notes
+csv-de-001,2026-09-01,DE,NW,51.2217,6.7762,Düsseldorf CSV Site
+csv-de-002,2026-09-02,DEU,BY,48.1351,11.5820,Munich Alpha-3 CSV
+csv-de-003,2026-09-03,DE,BW,48.7758,9.1829,Stuttgart CSV
+csv-fr-001,2026-09-01,FRA,IDF,48.8566,2.3522,Paris CSV Wind
+csv-fr-002,2026-09-03,FR,NAQ,44.8378,-0.5792,Bordeaux CSV
+csv-fr-003,2026-09-04,FRA,OCC,43.6047,1.4442,Toulouse CSV
+csv-nl-001,2026-09-01,NLD,NH,52.3676,4.9041,Amsterdam CSV
+csv-nl-002,2026-09-04,NL,ZH,51.9244,4.4777,Rotterdam CSV
+csv-nl-003,2026-09-05,NLD,UT,52.0907,5.1214,Utrecht CSV
+csv-es-001,2026-09-02,ESP,MD,40.4168,-3.7038,Madrid CSV
+csv-es-002,2026-09-05,ES,AN,37.3891,-5.9845,Seville CSV
+csv-es-003,2026-09-06,ESP,CT,41.3851,2.1734,Barcelona CSV
+csv-it-001,2026-09-03,ITA,LZ,41.9028,12.4964,Rome CSV
+csv-it-002,2026-09-06,IT,PM,45.0703,7.6869,Turin CSV
+csv-it-003,2026-09-07,ITA,EMR,44.4949,11.3426,Bologna CSV
+csv-pl-001,2026-09-04,POL,MZ,52.2297,21.0122,Warsaw CSV
+csv-pl-002,2026-09-07,PL,DS,51.1079,17.0385,Wroclaw CSV
+csv-at-001,2026-09-05,AUT,9,48.2082,16.3738,Vienna CSV
+csv-be-001,2026-09-05,BEL,BRU,50.8503,4.3517,Brussels CSV
+csv-dk-001,2026-09-06,DNK,84,55.6761,12.5683,Copenhagen CSV
+csv-se-001,2026-09-06,SWE,AB,59.3293,18.0686,Stockholm CSV
+csv-fi-001,2026-09-07,FIN,18,60.1699,24.9384,Helsinki CSV
+csv-pt-001,2026-09-07,PRT,11,38.7223,-9.1393,Lisbon CSV
+csv-ie-001,2026-09-07,IRL,L,53.3498,-6.2603,Dublin CSV
+bad-csv-missing-nation,2026-09-08,,XX,50.0,10.0,Missing Country
+bad-csv-long-nation,2026-09-08,DEUT,XX,50.0,10.0,Four-letter code
+bad-csv-nonsense,2026-09-08,XYZ,XX,50.0,10.0,Unknown code
+bad-csv-numeric,2026-09-08,99,XX,50.0,10.0,Numeric code
+bad-csv-geom,2026-09-08,DE,NW,invalid,6.0,Malformed coordinates
