@@ -16,7 +16,7 @@ cd ReusablePythonSourceAdapterContract
 Requires Python 3.12+.
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
 ```
@@ -24,8 +24,8 @@ pip install -e ".[dev]"
 ## Running
 
 ```bash
-python -m iris_ingest.cli --source json
-python -m iris_ingest.cli --source csv
+python3 -m iris_ingest.cli --source json
+python3 -m iris_ingest.cli --source csv
 ```
 
 Writes normalized records to `output/example_output.jsonl` (or
