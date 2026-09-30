@@ -51,7 +51,7 @@ fixtures/
   raw_records.json          JSON source fixture (32 records)
   csv_records.csv           CSV source fixture (29 records)
 migrations/
-  001_staging.sql            pending
+  001_staging.sql            staging table schema (country_code, geom, metadata)
 tests/
   test_validation.py, test_geometry.py, test_csv_adapter.py
 ```
@@ -208,8 +208,11 @@ unmodified core.
 
 - **Staging is JSONL, not PostgreSQL/PostGIS.** The `Loader` interface
   is format-agnostic; a `PostgresLoader` implementing the same
-  interface would write to a real staging table (SQL migration
-  pending, see below) without any change to `run()` or the adapters.
+  interface would write to the staging table defined in
+  `migrations/001_staging.sql` (see that file for schema details)
+  without any change to `run()` or the adapters. No live database was
+  used to execute this migration, per the brief's "no external
+  production credentials required."
 - **No promotion logic.** The brief's objective mentions promotion
   from staging to trusted tables; this submission stops at staging by
   design, since the technical task's four steps end there. Promotion
@@ -218,8 +221,10 @@ unmodified core.
 - **Mutable fields inside a frozen record** (`attributes`, `geom`) are
   not deep-frozen; a record's top-level fields can't be reassigned,
   but a dict's contents technically still can be mutated in place.
-- **CLI entry point**: pending.
-- **SQL migration for staging**: pending.
+- **No batched database writes.** `run()` loads one record at a time
+  for crash-safety and simplicity. A production loader could buffer
+  and flush in batches for efficiency without changing `run()` or any
+  adapter, since batching is entirely a loader-internal concern.
 
 ## Acceptance criteria
 
