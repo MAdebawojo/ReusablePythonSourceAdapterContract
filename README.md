@@ -4,6 +4,13 @@ A small, reusable ingestion core for Project IRIS. Any source adapter
 that implements the documented interface can plug in without changes
 to extraction, normalization, QA, or staging logic.
 
+## Getting the code
+
+```bash
+git clone https://github.com/MAdebawojo/ReusablePythonSourceAdapterContract
+cd ReusablePythonSourceAdapterContract
+```
+
 ## Setup
 
 Requires Python 3.12+.
